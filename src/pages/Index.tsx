@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Bolt, CheckCircle, PhoneCall, MailIcon, Award, Clock, Tool } from "lucide-react";
+import { Bolt, CheckCircle, PhoneCall, MailIcon, Award, Clock, Wrench } from "lucide-react";
 
 const Index = () => {
   return (
@@ -209,7 +209,7 @@ const services = [
   {
     title: "Электромонтаж под ключ",
     description: "Полный комплекс работ по монтажу электрики в квартирах, частных домах и офисах с нуля.",
-    icon: <Tool className="text-blue-600" />
+    icon: <Wrench className="text-blue-600" />
   },
   {
     title: "Замена электропроводки",
@@ -219,7 +219,7 @@ const services = [
   {
     title: "Установка и ремонт щитов",
     description: "Монтаж, подключение и ремонт электрощитов любой сложности с установкой автоматов.",
-    icon: <Tool className="text-blue-600" />
+    icon: <Wrench className="text-blue-600" />
   },
   {
     title: "Устранение неисправностей",
@@ -229,7 +229,7 @@ const services = [
   {
     title: "Подключение техники",
     description: "Профессиональное подключение бытовой техники, электроплит, водонагревателей.",
-    icon: <Tool className="text-blue-600" />
+    icon: <Wrench className="text-blue-600" />
   },
   {
     title: "Проектирование",
